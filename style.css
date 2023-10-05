@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    gap: 10px;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+main{
+    padding: 2px;
+}
+article, footer{
+    height: 120px;
+}
+header, main, article, footer, nav, img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h1, h2, h3, footer{
+    text-align: center;
+}
